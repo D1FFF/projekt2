@@ -1,0 +1,10 @@
+^C:\USERS\PANMA\DESKTOP\TP\TP_CMAKE\BUILD\CMAKEFILES\AE0DCD11DA91C832D61B874847E79A9C\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/panma/Desktop/tp/tp_cmake -BC:/Users/panma/Desktop/tp/tp_cmake/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/panma/Desktop/tp/tp_cmake/build/STLAssigment.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

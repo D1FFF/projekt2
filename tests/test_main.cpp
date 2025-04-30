@@ -8,7 +8,6 @@
 using namespace std;
 
 int main() {
-    auto input="10 1 * 23 +";
     auto ONP = wyrnaonp("10*10+23");
     assert(ONP.front()=="10");
     ONP.pop();

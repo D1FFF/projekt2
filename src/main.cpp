@@ -45,7 +45,6 @@ int main(){
     }
     cout << endl;
 
-
     future<int> przyszlyWynik = async(launch::async, obliczONP, ONP);
 
     int wynik = przyszlyWynik.get();
